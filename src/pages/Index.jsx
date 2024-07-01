@@ -1,10 +1,16 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Index = () => {
   return (
     <div className="text-center">
-      <h1 className="text-3xl">Your Blank Canvas</h1>
-      <p>Chat with the agent to start making edits.</p>
+      <Card>
+        <CardHeader>
+          <CardTitle>Welcome to Transaction Manager</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p>Use the sidebar to navigate through the app.</p>
+        </CardContent>
+      </Card>
     </div>
   );
 };
